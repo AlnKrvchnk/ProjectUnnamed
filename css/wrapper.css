@@ -1,0 +1,40 @@
+.wrapper {
+  position: static;
+}
+
+@media (min-width: 992px) {
+  .wrapper-lg-container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.wrapper-container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .wrapper-container {
+    padding: 0 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1380px) {
+  .wrapper-xl-mx-5 {
+    margin: 0 50px;
+  }
+  .wrapper-xl-justify-content-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper-xl-position-absolute {
+    position: absolute;
+  }
+  .wrapper-xl-right {
+    right: 0;
+  }
+}
+/*# sourceMappingURL=wrapper.css.map */

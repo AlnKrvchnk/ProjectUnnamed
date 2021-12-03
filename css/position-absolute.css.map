@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGa,AAAD,wBAAG,CAAA;EACC,GAAG,EAAE,CAAC;CACT;;AAGA,AAAD,2BAAG,CAAA;EACC,MAAM,EAAE,CAAC;CACZ;;AAGA,AAAD,0BAAG,CAAA;EACC,KAAK,EAAE,CAAC;CACX;;AAGA,AAAD,yBAAG,CAAA;EACC,IAAI,EAAE,CAAC;CACV",
+    "sources": [
+        "../scss/styles_elements/position-absolute.scss"
+    ],
+    "names": [],
+    "file": "position-absolute.css"
+}

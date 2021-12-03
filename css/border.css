@@ -1,0 +1,42 @@
+.myborder {
+  border-style: solid;
+}
+
+.myborder-thin {
+  border-width: 1px;
+}
+
+.myborder-lighter {
+  border-color: #FFFFFF;
+}
+
+.myborder-lightgray {
+  border-color: #DEDEDE;
+}
+
+.myborder-rounded-10 {
+  border-radius: 10px;
+}
+
+.myborder-rounded-30 {
+  border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+  .myborder-lg-thin {
+    border-width: 1px;
+  }
+  .myborder-lg-lighter {
+    border-color: #FFFFFF;
+  }
+  .myborder-lg-lightgray {
+    border-color: #DEDEDE;
+  }
+  .myborder-lg-rounded-10 {
+    border-radius: 10px;
+  }
+  .myborder-lg-rounded-30 {
+    border-radius: 30px;
+  }
+}
+/*# sourceMappingURL=border.css.map */

@@ -1,0 +1,37 @@
+button.button > p {
+  margin: 0;
+}
+
+button.button-primary {
+  border: 1px solid #4452FE;
+  background: #4452FE;
+}
+
+button.button-primary-shadow {
+  -webkit-box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+button.button-transparent {
+  background: transparent;
+}
+
+button.button-transparent-shadow {
+  -webkit-filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+}
+
+button.button-large {
+  vertical-align: middle;
+  padding: 0 40px;
+  min-width: 180px;
+  height: 65px;
+}
+
+button.button-medium {
+  vertical-align: middle;
+  padding: 0 45px;
+  min-width: 160px;
+  height: 50px;
+}
+/*# sourceMappingURL=button.css.map */

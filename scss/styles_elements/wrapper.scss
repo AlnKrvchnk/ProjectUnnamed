@@ -1,0 +1,49 @@
+@import '../variables.scss';
+
+.wrapper {
+    position: static;
+&-lg{
+    @media (min-width:$lg){
+        &-container {
+        width: 80%;
+        margin: auto;
+    }}
+}
+    &-container {
+        width: 80%;
+        margin: auto;
+
+        @media (max-width:$lg) {
+            padding: 0 30px;
+            width: 100%;
+        }
+    }
+
+    &-xl {
+        @media (min-width:1380px) {
+            &-mx {
+                &-5 {
+                    margin: 0 50px;
+                }
+            }
+
+            &-justify-content {
+                &-center {
+                    justify-content: center
+                }
+            }
+
+            &-position {
+                &-absolute {
+                    position: absolute;
+                }
+            }
+
+            &-right {
+                right: 0;
+            }
+        }
+
+    }
+
+}

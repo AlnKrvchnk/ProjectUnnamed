@@ -1,0 +1,13 @@
+.icon-logo:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  background: url("../resource/icons/logo.png");
+}
+
+.icon-logo-small {
+  width: 186px;
+  height: 58px;
+}
+/*# sourceMappingURL=icon.css.map */

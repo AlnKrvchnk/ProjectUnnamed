@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEK,AACG,UADE,AACD,OAAO,CAAA;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,iCAAqB;CACpC;;AACA,AAAD,gBAAO,CAAA;EACP,KAAK,EAAE,KAAK;EACR,MAAM,EAAE,IAAI;CAEnB",
+    "sources": [
+        "../scss/styles_elements/icon.scss",
+        "../scss/variables.scss"
+    ],
+    "names": [],
+    "file": "icon.css"
+}

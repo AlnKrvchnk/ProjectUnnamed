@@ -1,0 +1,29 @@
+
+.adaptive{ 
+@media (max-width:548px) {
+    &-small{
+        width:100%;
+        &-p{
+            &x{
+                &-0{
+                padding-right: 0!important;
+                padding-left: 0!important;
+            }}
+        }
+        &-m{
+            &x{
+                &-0{
+                margin-right: 0!important;
+                margin-left: 0!important;
+            }}
+            &-auto{
+                margin: auto;
+            }
+            &-b{
+                &-4{
+                    margin-bottom: 24px;;
+                }
+            }
+        }
+    }
+}}

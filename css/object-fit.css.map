@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,iBAAO,CAAA;EACH,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "../scss/styles_elements/object-fit.scss"
+    ],
+    "names": [],
+    "file": "object-fit.css"
+}

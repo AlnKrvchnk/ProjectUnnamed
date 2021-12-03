@@ -1,0 +1,52 @@
+.bg-white {
+  background: #FFFFFF;
+}
+
+.bg-dark {
+  background: #181818;
+}
+
+.bg-gray {
+  background: #343434;
+}
+
+.bg-gray-dark {
+  background: #1E1E1E;
+}
+
+@media (min-width: 992px) {
+  .bg-lg-gray {
+    background: #343434;
+  }
+}
+
+.bg__gradient-dark {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(66.15%, #0E0E0E));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+
+.bg__after__gradient-dark {
+  position: relative;
+}
+
+.bg__after__gradient-dark:after {
+  width: 100%;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(66.15%, #0e0e0e));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0e0e0e 66.15%);
+}
+
+.bg__after__gradient-dark-50:after {
+  height: 50%;
+}
+
+@media (max-width: 992px) {
+  .bg__after__gradient-dark-50:after {
+    height: 75%;
+  }
+}
+/*# sourceMappingURL=background.css.map */

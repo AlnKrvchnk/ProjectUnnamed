@@ -1,0 +1,39 @@
+@import '../variables.scss'; 
+.toggler{
+    height: 25px;
+    border: none;
+    padding: 0;
+    &:focus{
+        box-shadow:none
+    }
+    &-icon{
+        width:44px;
+        height: 5px;
+        background: $light;
+        display: block;
+        position: relative;
+
+        &::before{
+            width:33px;
+            height: 5px;
+            background: $light;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 0;
+        }
+        &::after{
+            width:22px;
+            height: 5px;
+            background: $light;
+            content: "";
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 0;
+
+        }
+    }
+    
+}

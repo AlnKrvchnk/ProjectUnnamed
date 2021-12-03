@@ -1,0 +1,26 @@
+.card-BUE {
+  max-width: 476px;
+}
+
+.card-image-small {
+  width: 225px;
+  height: 285px;
+}
+
+@media (max-width: 992px) {
+  .card-image-small {
+    width: 329px;
+  }
+}
+
+.card-image-large {
+  width: 395px;
+  height: 285px;
+}
+
+@media (max-width: 992px) {
+  .card-image-large {
+    width: 329px;
+  }
+}
+/*# sourceMappingURL=card.css.map */

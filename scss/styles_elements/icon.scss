@@ -1,0 +1,16 @@
+@import '../variables.scss';
+.icon{
+    &-logo{
+        &:before{
+            width: 100%;
+            height: 100%;
+            content: "";
+            display: block;
+            background: url($icon+'logo.png');
+        }
+        &-small{
+        width: 186px;
+            height: 58px;
+        
+    }}
+}

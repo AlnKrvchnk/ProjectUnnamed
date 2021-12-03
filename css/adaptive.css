@@ -1,0 +1,20 @@
+@media (max-width: 548px) {
+  .adaptive-small {
+    width: 100%;
+  }
+  .adaptive-small-px-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .adaptive-small-mx-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .adaptive-small-m-auto {
+    margin: auto;
+  }
+  .adaptive-small-m-b-4 {
+    margin-bottom: 24px;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */
